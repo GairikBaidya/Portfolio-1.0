@@ -1,0 +1,162 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #222;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 50px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about h1 {
+    font-size: 48px;
+}
+
+#about h2 {
+    font-size: 24px;
+    color: #aaa;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.skill-category {
+    margin-bottom: 30px;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.job {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contact-info {
+    max-width: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
