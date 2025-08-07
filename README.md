@@ -13,7 +13,7 @@ I’m a frontend-focused developer with experience in React, Tailwind CSS, and J
 ## 🌐 Live Demo
 
 Check out the live version of this portfolio here:  
-🔗 [...]
+🔗 [ https://gairikbaidya.github.io/Portfolio-1.0/ ]
 
 ## 🛠️ Tech Stack
 
